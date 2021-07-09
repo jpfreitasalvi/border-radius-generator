@@ -4,7 +4,7 @@
 
 Idea from [here](https://github.com/florinpop17/app-ideas).
 
-**Demo:** [Codesandbox](https://m697l.csb.app/)
+**Demo:** [Codesandbox](https://hcufz.csb.app/)
 
 **Tier:** 1-Beginner
 
