@@ -139,7 +139,7 @@ header .logo h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .box-text input {
@@ -261,6 +261,7 @@ footer a {
     font-size: 1.5rem;
     color: #2d82b7;
     opacity: 0.6;
+    cursor: pointer;
 }
 
 footer a:hover {
@@ -270,8 +271,41 @@ footer a:hover {
 
 /* media queries */
 @media (max-width: 926px) {
+    .container {
+        background-color: #fff;
+        padding: 0;
+        height: auto;
+    }
+
     .box {
         height: auto;
         flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .copy-area {
+        margin-bottom: 25px;
+    }
+
+    footer {
+        height: 8vh;
+    }
+}
+
+@media (max-width: 475px) {
+    .border-selection {
+        width: 320px;
+        align-self: center;
+    }
+    .border-preview {
+        width: 320px;
+        align-self: center;
+    }
+
+    .bg-border-preview {
+        width: 280px;
+        height: 280px;
     }
 }
